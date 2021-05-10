@@ -1,0 +1,32 @@
+{
+  "name": "pdfkit-demo",
+  "version": "1.0.0",
+  "description": "Hello World using pdfkit",
+  "main": "src/index.js",
+  "private": "true",
+  "scripts": {
+    "build": "node src/index.js",
+    "format": "prettier --ignore-path ./.gitignore --write \"./**/*.{html,json,js,ts,css}\"",
+    "format:check": "prettier --ignore-path ./.gitignore --check \"./**/*.{html,json,js,ts,css}\"",
+    "lint": "eslint --ignore-path ./.gitignore --fix \"./**/*.{js,ts}\"",
+    "lint:check": "eslint --ignore-path ./.gitignore --quiet \"./**/*.{js,ts}\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alexandracaulea/pdfkit-demo.git"
+  },
+  "keywords": [],
+  "author": "Alexandra Caulea <alexandra.caulea@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alexandracaulea/pdfkit-demo/issues"
+  },
+  "homepage": "https://github.com/alexandracaulea/pdfkit-demo#readme",
+  "devDependencies": {
+    "eslint": "^7.26.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-import": "^2.22.1",
+    "pdfkit": "^0.12.1",
+    "prettier": "^2.3.0"
+  }
+}
